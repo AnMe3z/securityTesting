@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract TimeLock",
+						"name": "_timeLock",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"problem_1/ArithmeticOverflowAndUnderflow.sol": "Attack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"problem_1/ArithmeticOverflowAndUnderflow.sol": {
+			"keccak256": "0x53b2c4baebf61d7fbf48d9423c10697f326fe6cc1c65f73df1b1d596e7a9ff5b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://666c34e64d3882da54848492713fee6fa3f0afc0f75d1345083d962d5b9febf5",
+				"dweb:/ipfs/QmU417Cbt77HPN487mUze7opbxfpf4atNRuL5hSeK3bZ6H"
+			]
+		},
+		"problem_1/SafeMath.sol": {
+			"keccak256": "0xdc9b51d94a1db880c1f2e722af561c28c41100eea201b1ae5e77eb7c4250e389",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0b69f7fb378dcfd4aff8ba0547a575485d2d4bb567381e3bf8c593b63272ffc0",
+				"dweb:/ipfs/QmaEo28ZDAnpDvpQRRt7Qc8bF5QgJAnTEE4TxYnJS8YmnN"
+			]
+		}
+	},
+	"version": 1
+}

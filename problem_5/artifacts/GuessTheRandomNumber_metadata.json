@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_guess",
+						"type": "uint256"
+					}
+				],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"problem_5/Randomness.sol": "GuessTheRandomNumber"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"problem_5/Randomness.sol": {
+			"keccak256": "0x71bb5fc0fe13c89c3f6901adfcea0227dd21fa26f757f7efb82ad6511426d2c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b942dd40a61c0165587168a28e509c232df2341390b6d288787292f3e23b0e45",
+				"dweb:/ipfs/QmdLJaLieyCHJVoo1zywLA7SbXzBfWKF6iqbjzJ7yT5C24"
+			]
+		},
+		"problem_5/provableAPI_0.5.sol": {
+			"keccak256": "0x1139a527b0f101b3aaad45944394c268bf2e0db6488b47f59de98b4a8eb515ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e3b3bad10072faf77181b1065bcb58fb040bead666c974a261b0d41c8bb025f0",
+				"dweb:/ipfs/Qmd9cMyqwPLu5NjT6ezVGeRX1EaJPsrKnHuxQyo4Npt3Kg"
+			]
+		}
+	},
+	"version": 1
+}
